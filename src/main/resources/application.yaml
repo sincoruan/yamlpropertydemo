@@ -1,0 +1,26 @@
+rules:
+  ruleMap:
+    {
+      dmn1:{
+        namespace: ruanxkspace,
+        modelName: ruanxkmodel
+      },
+      dmn2:{
+        namespace: ruanxkspace,
+        modelName: ruanxkmodel
+      }
+    }
+  list:
+    - zhangsan
+    - lisi
+    - wangwu
+
+names: zhangsan;list;wangwu
+
+
+person:
+  lastName: hello
+  age: 18
+
+server:
+  port: 8085

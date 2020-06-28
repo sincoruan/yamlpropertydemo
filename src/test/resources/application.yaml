@@ -1,0 +1,21 @@
+rules:
+  rule-map:
+    {
+      dmn1:{
+        namespace: ruanxkspace,
+        modelName: ruanxkmodel
+      },
+      dmn2:{
+        namespace: ruanxkspace
+        modelName: ruanxkmodel
+      }
+    }
+  list:
+    - zhangsan
+    - lisi
+    - wangwu
+
+person:
+  lastName: hello
+  age: 18
+
